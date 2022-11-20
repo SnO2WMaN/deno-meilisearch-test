@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:6.0
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: pass
+      MONGO_INITDB_DATABASE: test
+  meilisearch:
+    image: getmeili/meilisearch:v0.29.2
