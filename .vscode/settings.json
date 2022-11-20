@@ -1,5 +1,10 @@
 {
   "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json",
+  "deno.internalDebug": true,
   "customLocalFormatters.formatters": [
     {
       "command": "treefmt -q --stdin ${file}",
@@ -7,6 +12,10 @@
         "nix",
         "yaml",
         "toml",
+        "json",
+        "jsonc",
+        "javascript",
+        "typescript",
       ]
     },
   ],
@@ -18,5 +27,17 @@
   },
   "[toml]": {
     "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 }

@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "~/": "./",
+    "std/": "https://deno.land/std@0.159.0/",
+    "meilisearch": "npm:meilisearch@0.29.1"
+  }
+}

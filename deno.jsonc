@@ -1,0 +1,22 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run -A ./mod.ts",
+    "test": "deno test",
+    "lint": "deno lint"
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 120,
+      "indentWidth": 2,
+      "singleQuote": false,
+      "useTabs": false
+    },
+    "files": {
+      "exclude": [
+        "./lock.json",
+        "./proto/*.d.ts"
+      ]
+    }
+  }
+}

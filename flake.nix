@@ -29,6 +29,7 @@
             treefmt
             taplo-cli
             yamlfmt
+            deno
           ];
         };
       }

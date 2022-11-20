@@ -1,0 +1,60 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.159.0/crypto/_fnv/fnv32.ts": "aa9bddead8c6345087d3abd4ef35fb9655622afc333fc41fff382b36e64280b5",
+    "https://deno.land/std@0.159.0/crypto/_fnv/fnv64.ts": "625d7e7505b6cb2e9801b5fd6ed0a89256bac12b2bbb3e4664b85a88b0ec5bef",
+    "https://deno.land/std@0.159.0/crypto/_fnv/index.ts": "a8f6a361b4c6d54e5e89c16098f99b6962a1dd6ad1307dbc97fa1ecac5d7060a",
+    "https://deno.land/std@0.159.0/crypto/_fnv/util.ts": "4848313bed7f00f55be3cb080aa0583fc007812ba965b03e4009665bde614ce3",
+    "https://deno.land/std@0.159.0/crypto/_wasm_crypto/lib/deno_std_wasm_crypto.generated.mjs": "581c7204c9d731cab6ec1525d1be99dc69d8a2362c9862dfc822c0132a75a5b0",
+    "https://deno.land/std@0.159.0/crypto/_wasm_crypto/mod.ts": "6c60d332716147ded0eece0861780678d51b560f533b27db2e15c64a4ef83665",
+    "https://deno.land/std@0.159.0/crypto/keystack.ts": "e481eed28007395e554a435e880fee83a5c73b9259ed8a135a75e4b1e4f381f7",
+    "https://deno.land/std@0.159.0/crypto/mod.ts": "81d11be3e595cd51360666255317a218a72e2c5f80f9099ff91b00434376056e",
+    "https://deno.land/std@0.159.0/crypto/timing_safe_equal.ts": "82a29b737bc8932d75d7a20c404136089d5d23629e94ba14efa98a8cc066c73e",
+    "https://deno.land/std@0.159.0/encoding/base64.ts": "c57868ca7fa2fbe919f57f88a623ad34e3d970d675bdc1ff3a9d02bba7409db2",
+    "https://deno.land/std@0.159.0/encoding/base64url.ts": "a5f82a9fa703bd85a5eb8e7c1296bc6529e601ebd9642cc2b5eaa6b38fa9e05a",
+    "https://deno.land/std@0.159.0/fmt/colors.ts": "ff7dc9c9f33a72bd48bc24b21bbc1b4545d8494a431f17894dbc5fe92a938fc4",
+    "https://deno.land/std@0.159.0/testing/_diff.ts": "a23e7fc2b4d8daa3e158fa06856bedf5334ce2a2831e8bf9e509717f455adb2c",
+    "https://deno.land/std@0.159.0/testing/_format.ts": "cd11136e1797791045e639e9f0f4640d5b4166148796cad37e6ef75f7d7f3832",
+    "https://deno.land/std@0.159.0/testing/asserts.ts": "9ff3259f6cdc2908af478f9340f4e470d23234324bd33e7f74c683a00ed4d211"
+  },
+  "npm": {
+    "specifiers": {
+      "meilisearch": "meilisearch@0.29.1",
+      "meilisearch@0.29.0": "meilisearch@0.29.0",
+      "meilisearch@0.29.1": "meilisearch@0.29.1"
+    },
+    "packages": {
+      "cross-fetch@3.1.5": {
+        "integrity": "sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==",
+        "dependencies": { "node-fetch": "node-fetch@2.6.7" }
+      },
+      "meilisearch@0.29.0": {
+        "integrity": "sha512-E+n4Xm7CgAQzPU7V3MWfYoyA6PrIY1dq9IC4djb2PvF5rb7EN/VqhAM1vIa3b5aE+rC85biPpe2Bji7ntOT98w==",
+        "dependencies": { "cross-fetch": "cross-fetch@3.1.5" }
+      },
+      "meilisearch@0.29.1": {
+        "integrity": "sha512-SXaCtOvQV7i6kVcxJc3cWQgUKCAc0+tAg+IiuWI0OY64eyaLhSwFkjDrU4chccmiiv526y4h4lbAUt99h9+Y1A==",
+        "dependencies": { "cross-fetch": "cross-fetch@3.1.5" }
+      },
+      "node-fetch@2.6.7": {
+        "integrity": "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==",
+        "dependencies": { "whatwg-url": "whatwg-url@5.0.0" }
+      },
+      "tr46@0.0.3": {
+        "integrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
+        "dependencies": {}
+      },
+      "webidl-conversions@3.0.1": {
+        "integrity": "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==",
+        "dependencies": {}
+      },
+      "whatwg-url@5.0.0": {
+        "integrity": "sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==",
+        "dependencies": {
+          "tr46": "tr46@0.0.3",
+          "webidl-conversions": "webidl-conversions@3.0.1"
+        }
+      }
+    }
+  }
+}
